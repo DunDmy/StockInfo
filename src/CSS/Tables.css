@@ -1,0 +1,178 @@
+p {
+    font-family: "Arial", Monaco, monospace;
+    font-size: 17px;
+    letter-spacing: -0.6px;
+    word-spacing: -0.6px;
+    color: #000000;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.desc_table {
+    font-family: "Arial", Monaco, monospace;
+    font-size: 13px;
+    letter-spacing: -0.6px;
+    word-spacing: -0.6px;
+    color: #000000;
+    font-weight: 200;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tbl-header {
+    background-color: #000000;
+}
+
+.tbl-content {
+    height: 300px;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.years {
+    display: flex;
+    color: #000000;
+}
+
+
+.li_year {
+    display: inline;
+    padding-left: 27px;
+    color: #000000;
+}
+
+    .li_year a {
+        display: inline-block;
+        transition: all .2s ease-in-out;
+    }
+
+/* Style the social media icons with color, if you want */
+        .li_year a:hover {
+            transform: scale(1.1);
+        }
+
+        .li_year a:active {
+            transform: translateY(4px);
+        }
+
+.li_qrt {
+    display: inline;
+    padding-left: 15px;
+    color: #000000;
+}
+
+    .li_qrt a {
+        display: inline-block;
+        transition: all .2s ease-in-out;
+    }
+
+    /* Style the social media icons with color, if you want */
+        .li_qrt a:hover {
+            transform: scale(1.1);
+        }
+
+        .li_qrt a:active {
+            transform: translateY(4px);
+        }
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+    border-bottom: solid 1px #000000;
+}
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+body {
+    background: -webkit-linear-gradient(left, #000000, #000000);
+    background: linear-gradient(to right, #000000, #000000);
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin: 50px;
+}
+
+
+/* follow me template */
+.made-with-love {
+    margin-top: 40px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+    font-size: 10px;
+    font-family: arial;
+    color: #000000;
+}
+
+    .made-with-love i {
+        font-style: normal;
+        color: #000000;
+        font-size: 14px;
+        position: relative;
+        top: 2px;
+    }
+
+    .made-with-love a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+        .made-with-love a:hover {
+            text-decoration: underline;
+        }
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,52 @@
+.SearchBar {
+    border: none;
+    text-align: left;
+    text-indent: 1.5em;
+    border-bottom: 4px solid black;
+    outline: none;
+    height: 35px;
+    font-size: 14pt;
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: #FFFDE4;
+    background-image: url('https://img.icons8.com/ultraviolet/25/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.SearchCompInput {
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 30%;
+    top: 10%;
+    left: 46.5%;
+    background-color: #FFFDE4;
+}
+
+.SearchCompButton {
+    position: absolute;
+    top: 13.5%;
+    left: 64%;
+}
+
+.SearchButton {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #23466b;
+    border-radius: 10px;
+}
+
+    .SearchButton:hover {
+        transform: scale(1.1);
+    }
+
+    .SearchButton:active {
+        background-color: #001f3f;
+        transform: translateY(5px);
+    }

@@ -1,0 +1,58 @@
+.GenInfoComp {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.li {
+    padding: 3%;
+}
+
+.symbol{
+
+}
+
+.desc {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 17px;
+    letter-spacing: -0.6px;
+    word-spacing: -0.6px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.item {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.value {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
